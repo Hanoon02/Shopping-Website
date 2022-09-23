@@ -3,10 +3,15 @@ import {Link} from 'react-router-dom'
 function Home(){
     return(
         <>
-        <div className='text-5xl font-extrabold font-sans antialiased py-10'>
-            <span className='bg-gradient-to-r from-green-700 to-green-300'>Welcome to Cloth Store</span>
+        <div className='flex justify-center text-5xl font-extrabold font-sans antialiased pt-10 h-48'>
+            <span>Welcome to Cloth Store</span>
         </div>
-        <button className='bg-sky-500 hover:bg-sky-700 rounded w-24 h-8'><Link to="/shop">Shop Now</Link></button>
+        <div >
+            <img className='px-36' src={require("/Users/hanoon/CSE/VSCode/Web Development/TOP Repos/Shopping-Cart/src/components/images/intro.jpg")} alt="none" />
+        </div>
+        <div className='flex justify-center py-10'>
+            <button className='bg-gradient-to-r from-purple-500 to-pink-500 border-black border-2 rounded w-44 h-12 text-3xl'><Link to="/shop">Shop Now</Link></button>
+        </div>
         </>
     )
 }
