@@ -9,7 +9,7 @@ function App() {
    <>
    <BrowserRouter>
     <NavBar/>
-    <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 py-6'>
+    <div className='bg-gradient-to-r from-violet-500 to-fuchsia-400 py-6'>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
