@@ -1,12 +1,10 @@
 import React from 'react'
-
-function Shop(props){
+import Item from './Item';
+function Shop(){
     return(
         <>
-            <div className='container w-52 h-44 px-5 py-5'>
-                <img src={require(`./images/${props.fruit}.jpg`)} alt="fruit" className='w-52 h-44'/>
-                <p className='text-xl text-center'>{props.fruit}</p>
-            </div>
+            <Item gender="men" cloth="shirt" price="$25.00"/>
+            <Item gender="women" cloth="pants" price="$36.00"/>
         </>
     )
 }
