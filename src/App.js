@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar';
-import About from './components/About';
+import Contact from './components/Contact';
 import Home from './components/Home';
 import Shop from './components/Shop';
 import Cart from './components/Cart';
@@ -12,7 +12,7 @@ function App() {
     <div className='bg-gradient-to-r from-violet-500 to-fuchsia-400 py-6'>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/shop" element={<Shop/>}/>
         <Route path="/cart" element={<Cart/>}/>
       </Routes>

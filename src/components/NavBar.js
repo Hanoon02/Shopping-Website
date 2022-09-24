@@ -13,15 +13,15 @@ function NavBar(){
                                 <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium" href="/#">
                                     <Link to="/" className="px-8 py-2">Home</Link>
                                 </a>
-                                <a className="text-gray-800 dark:text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium" href="/#">
-                                    <Link to="/about" className="px-8 py-2">About</Link>
-                                </a>
                                 <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium" href="/#">
                                     <Link to="/shop" className="px-8 py-2">Shop</Link>
                                 </a>
                                 <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium" href="/#">
-                                    <Link to="/cart" className="px-8 py-2">Cart</Link>
+                                    <Link to="/contact" className="px-8 py-2">Contact</Link>
                                 </a>
+                                {/* <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium" href="/#">
+                                    <Link to="/cart" className="px-8 py-2">Cart</Link>
+                                </a> */}
                             </div>
                         </div>
                     </div>
