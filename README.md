@@ -1,4 +1,4 @@
-# Shopping-Cart
+# Shopping-Website
 
 Sample Shopping Website created using React
 
